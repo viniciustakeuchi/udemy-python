@@ -33,7 +33,6 @@ while numero >= 0:
     numero -=1
     
 # Somar até passar de 100
-    
 soma = 0
 
 while soma <= 100:
@@ -42,5 +41,14 @@ while soma <= 100:
 
 print("Soma final:", soma)
 
-    
+# Contar quantos números foram digitados
+
+soma = 0
+contador = 0
+
+while soma <= 100:
+    numero = int(input('Digite um número: '))   
+    soma += numero
+    contador +=1
+print(f'Essa foi a soma dos números até ultrapassar o limite {soma}, e esse é número de números digitados {contador}')
     
