@@ -1,9 +1,11 @@
-# entrada de dados
-nome = input('Digite o seu nome: ')
+from funcoes import saudacao, soma, verificar_maioridade
+
+saudacao('Vinícius')
+print(soma(2,10))
+
 idade = int(input('Digite a sua idade: '))
-print(type(idade))
-fruta_favorita = input('Digite a sua fruta favorita: ')
 
-# print com f-string 
-print(f'Olá {nome}, daqui 10 anos você terá {idade + 10} de idade e sua fruta favorita é {fruta_favorita} eu imagino rs')
-
+if verificar_maioridade(idade):
+    print('Você é maior de idade :) ')
+else:
+    print('Você é menor de idade')
