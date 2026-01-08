@@ -5,7 +5,4 @@ print(soma(2,10))
 
 idade = int(input('Digite a sua idade: '))
 
-if verificar_maioridade(idade):
-    print('Você é maior de idade :) ')
-else:
-    print('Você é menor de idade')
+print(f'Maior de Idade' if verificar_maioridade else 'Menor de Idade')

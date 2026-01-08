@@ -2,7 +2,7 @@ class Escola:
     def __init__(self, nome, idade, status):
         self.nome = nome
         self.idade = idade
-        self.status = False
+        self.status = status
         
     def apresentar(self):
         print(f'Meu nome é {self.nome}')
@@ -45,7 +45,7 @@ a1 = Aluno(nome='Marcos',idade=12,status=True,ano=8)
 print(a1.ano)
 
 p1 = Professor(nome='Roberto',idade=34,status=True,materia='Geometria')
-as1 = Assistente(nome='Ana Maria',idade=29,status=False,bloco='Bloco C')
+as1 = Assistente(nome='Ana Maria',idade=29,status=True,bloco='Bloco C')
 a1.apresentar()
 p1.apresentar()
 as1.verificar_status()
