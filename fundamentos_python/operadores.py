@@ -21,4 +21,13 @@ preço_total = float(input('Digite o valor do produto: '))
 desconto = float(input('Digite o desconto que você deseja aplicar sob a compra: '))
 print(f'O valor final do produto com o cupom de 10% aplicado é: R${preço_total - (preço_total * desconto / 100)}')
 
+# assignment operators (Operadores de Atribuição)
+x = 10
+x = x + 5
+x += 5
+x -= 5
+x *= 5
+x /= 5
+x %= 3
 
+print(x)
