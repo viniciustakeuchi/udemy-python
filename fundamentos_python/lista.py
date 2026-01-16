@@ -36,3 +36,10 @@ for i in valores:
         print(f'Ultrapassou o valor permitido, o número que parou foi {i}.')
         break
     print(soma)
+
+cor_cliente = input('Digite a cor desejada')
+cores = ['amarelo', 'verde', 'azul', 'vermelho']
+if cor_cliente.lower() in cores:
+    print('Em estoque!')
+else: 
+    print('Não temos essa cor em estoque')
