@@ -18,3 +18,13 @@ i = 0
 for tarefa in tarefas:
     i+=1
     print(f'Tarefa {i}: {tarefa}')
+
+
+lista1 = [1, 2, 3, 4, 5, 6, 7, 8]
+item1, item2, item3, item4, *outros = lista1
+print(item1)
+print(item2)
+print(item3)
+print(item4)
+print(outros)
+

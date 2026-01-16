@@ -23,3 +23,5 @@ preco = float(input('Qual é o preço do produto? '))
 porcentagem = float(input('Qual o desconto a ser aplicado? '))
 preco_final = calcular_desconto(preco, porcentagem)
 print(f'O preço do produto com desconto é de R${preco_final:.2f}')
+
+
