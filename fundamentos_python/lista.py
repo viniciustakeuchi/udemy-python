@@ -28,3 +28,11 @@ print(item3)
 print(item4)
 print(outros)
 
+valores = [10, 20, 30, 1, 40]
+soma = 0
+for i in valores:
+    soma += i
+    if soma > 100:
+        print(f'Ultrapassou o valor permitido, o número que parou foi {i}.')
+        break
+    print(soma)
