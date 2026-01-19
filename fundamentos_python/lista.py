@@ -43,3 +43,26 @@ if cor_cliente.lower() in cores:
     print('Em estoque!')
 else: 
     print('Não temos essa cor em estoque')
+
+# Set
+list1 = [10, 20, 30, 40, 50]
+list2 = [10, 20, 60, 70]
+
+num1 = set(list1)
+num2 = set(list2)
+
+print(num1 | num2) # Union: unifica os resultados e tira os repetidos
+print(num1 - num2) # Pega o num1 e tira o que tem de igual no num2 
+print(num1 ^ num2) # Simmetric Difference: Os valores únicos de cada um, mas sem repetir os numeros
+print(num1 & num2) # AND: O que é duplicado entre as listas
+print(len(num1))
+print(len(num1))
+
+print(type(num1))
+list3 = set([1, 2, 3, 4, 5, 6])
+s1 = {1, 2, 3, 4, 5, 6}
+
+print(list3)
+print(s1)
+    
+    
