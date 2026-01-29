@@ -8,3 +8,15 @@ try:
     print(letras[3])
 except IndexError:
     print('Index não existe')
+
+try: 
+    valor = int(input('Digite o valor do seu produto: '))
+    print(type(valor))
+except ValueError:
+    print('Favor digitar um valor em números')
+finally:
+    print('Codigo OK')
+# else:
+#     print('usuario digitou um valor correto!')
+#     resultado = valor * 2
+#     print(resultado)
